@@ -1,0 +1,210 @@
+/************ MAIN GRID CSS START ****************/
+.wrapper {
+  display: grid;
+}
+/************ MAIN GRID CSS END ****************/
+
+
+
+/*************** ABOUT US START *****************/
+.about-us { 
+  display: grid;
+  display: row;
+  grid-template-columns: repeat(1fr, 12);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 20px;
+}
+
+.about-inner {
+  line-height: 2; 
+  padding: 40px 40px 40px 40px;
+}
+
+
+.about-why-use-us {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+  
+.why-use-us {
+  grid-column-start: 7;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end:1;
+}
+  
+.ui-design {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.about-ui {
+  grid-column-start: 7;
+  grid-column-end: 12;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.seo {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.about-seo {
+  grid-column-start: 7;
+  grid-column-end: 12;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+/*************** ABOUT US END *****************/
+
+
+
+
+/************** REVIEW START ****************/
+.review-first-box, .review-second-box, 
+.review-third-box {
+  display: flex;
+  align-items: center;
+}
+
+.review-container {
+  display: flex;
+  display: grid;
+}
+
+.review-first-box, .review-second-box, 
+.review-third-box, .review-fourth-box {
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3)
+}
+  
+.review-main { 
+  display: grid;
+  display: row;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 25px;
+  background-color: #f4f5ed;
+  width: 100%; 
+}
+
+.review-header-box {
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  margin-top: 20px;
+}
+  
+.review-first-box {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  margin-left: 20px;
+  margin-top: -50px;
+}
+  
+.review-second-box {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+   
+.review-third-box {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  margin-left: 20px;
+}
+
+.review-fourth-box {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  background: #a2a461;
+  width: 100%;
+  height: 100%;
+  padding-right: 0px;
+  padding-left: 20px;
+}
+/************** REVIEW END ****************/
+
+
+
+/******* Header style two **********/
+.grid-1 { 
+  display: grid;
+  display: row;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, auto);
+}
+
+.c2 {
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.container1 {
+  grid-column-start: 8;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.box2 {
+  grid-column-start: 2;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  height: auto;
+}
+
+.box3 {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  height: auto;
+}
+
+.inner {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-top:1px solid lightgray;
+}
+
+.inner > img {
+  width: 13%;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  background-size: cover;
+  border:1px solid lightgray;
+  margin-left: -10px
+}
+
+.inner > p {
+  margin-left: 25px;
+  overflow: hidden;
+}
+/********** Header style two end **************/

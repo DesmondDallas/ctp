@@ -1,0 +1,312 @@
+body { 
+  margin: 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/*keeps left & right margin when responsive*/
+.container {
+	width: 90%;
+	margin: auto;
+} 
+
+.container-title {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+
+/********* intro start *******/
+.intro {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.intro-header {
+  line-height:1.1; 
+  font-size: 3.5rem; 
+  text-align: center;
+}
+
+.intro-p1 {
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  font-size: 1.4rem;
+  color: #525252;
+}
+
+.intro-p2 {
+  margin-bottom: 100px;
+  font-size: 1.5rem;
+  letter-spacing: .02em;
+  color: #525252;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/********* intro end *********/
+
+
+
+
+
+.rb {
+  padding: 20px;
+}
+
+.col1 {
+  float:left; 
+  width:100px;
+  background-color: #E8F6F7;
+}
+
+.col2 {
+  float:left; 
+  width:200px; 
+  margin-left:30px;
+  background-color: #f2dede;
+}
+
+
+
+
+
+/******* REVIEW START *******/
+.review-first-box > img, .review-second-box > img, .review-third-box  > img {
+  margin-right: 20px;
+  width: 15%;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3)
+}
+/******* REVIEW END *******/
+
+
+
+/*************** ABOUT US START *****************/
+/******** read more start ***********/
+#more, #more2, #more3, #more4 {
+  display: none;
+}
+/**
+#myBtn, #myBtn2, #myBtn3, #myBtn4 {
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3)
+}
+
+.about-us, .about-seo, .about-web, .about-tutoring {
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3)
+}
+/******** read more end ***********/
+/*************** ABOUT US END *****************/
+
+
+
+/** more about us arrow start **/
+.fa-chevron-down {
+  color: red;
+  font-size: 50px;
+  margin: 10% 48%;  
+  margin-bottom: 6%
+}
+/** more about us arrow end **/
+
+
+
+/***** reviews with star *****/
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 90%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 80%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 500px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+/*** contact us start ***/
+.contact-us > p {
+  margin-top: 0px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+
+
+.contact-us > button {
+  display: flex; 
+  justify-content: center; 
+  background-color: #a2a461;
+  text-align: center;
+  margin:0 auto;
+  margin-top: 40px;
+  padding: 25px;
+  letter-spacing: 1px;
+  border: 1px solid white;
+  font-size: 20px; 
+  color: white;
+}
+
+.contact-us {
+  background-color: rgb(191, 199, 183); 
+  margin-top: 100px; 
+  padding: 17px;
+}
+/*** contact us end ***/
+
+
+
+
+
+/****/
+
+#myImg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+ 
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
