@@ -6,20 +6,23 @@
 
 
 
+
 /*************** ABOUT US START *****************/
-.about-us { 
+.about-us-container { 
   display: grid;
   display: row;
   grid-template-columns: repeat(1fr, 12);
-  grid-template-rows: repeat(3, auto);
   grid-gap: 20px;
+  background-color: #fbfbfa; 
+  padding-top: 100px; 
+  padding-bottom: 100px;
+  line-height: 2;
 }
 
 .about-inner {
   line-height: 2; 
-  padding: 40px 40px 40px 40px;
+  padding: 40px 40px;
 }
-
 
 .about-why-use-us {
   grid-column-start: 1;
