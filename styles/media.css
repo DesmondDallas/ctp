@@ -7,7 +7,7 @@
 
 
 
-  /*** Removes 'header-container  ***/
+/*** Removes 'header-container  ***/
 @media (max-width: 1200px) {
   .header-container {
   display: none;
@@ -16,13 +16,14 @@
 
 
 
-/*** Removes 'Text Block'  ***/
+/*** Removes 'images  ***/
 @media (max-width: 1200px) {
     .why-use-us, .ui-design, .about-seo {
     display: none;
     }}
-  /*** Removes 'Text Block'  ***/
+/*** Removes 'images  ***/
 
+  
 
 @media (max-width: 1200px) {
     .about-why-use-us, .about-ui, .seo{
@@ -30,3 +31,10 @@
     grid-column-end: 12;
     padding: 0px 40px;
     }}
+
+
+/******* Card **********/
+@media (min-width: 927px) {
+  .hidden-card {
+  visibility: hidden;
+  }}
