@@ -1,7 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
 /* Center website */
 .main {
   max-width: 1000px;
   margin: auto;
+}
+
+.unit {
+  background-color: rgb(191, 199, 183); 
+  padding-top: 100px; 
+  padding-bottom: 100px;
 }
 
 h1 {
@@ -61,11 +71,6 @@ h1 {
   background-color: #666;
   color: white;
 }
-
-
-
-
-
 
 
 /** zoom in **/

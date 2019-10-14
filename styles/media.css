@@ -33,8 +33,19 @@
     }}
 
 
-/******* Card **********/
+/******* CARD START **********/
 @media (min-width: 927px) {
   .hidden-card {
   visibility: hidden;
   }}
+
+  @media (min-width: 927px) {
+    .m-about-us {
+    margin-top: -550px;
+}}
+/********* CARD END *******/
+  
+
+
+
+
