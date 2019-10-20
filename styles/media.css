@@ -16,21 +16,6 @@
 
 
 
-/*** Removes 'images  ***/
-@media (max-width: 1200px) {
-    .why-use-us, .ui-design, .about-seo {
-    display: none;
-    }}
-/*** Removes 'images  ***/
-
-  
-
-@media (max-width: 1200px) {
-    .about-why-use-us, .about-ui, .seo{
-    grid-column-start: 1;
-    grid-column-end: 12;
-    padding: 0px 40px;
-    }}
 
 
 /******* CARD START **********/
