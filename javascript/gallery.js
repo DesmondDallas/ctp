@@ -1,7 +1,7 @@
 
 
 
-// gallery js start 
+// GALLERY START 
   filterSelection("all")
   function filterSelection(c) {
     var x, i;
@@ -44,16 +44,10 @@
       this.className += " active";
     });
   } 
-// gallery js end
 
 
 
-
-
-
-
-/****** START *****/
-// image modal start
+// image modal for gallery start
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -74,22 +68,37 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
   modal.style.display = "none";
 } 
-// image model end
-// gallery js end
+// image model for gallery end
+// GALLERY END
 
 
 
 
-
-// OVERLAY START
-function on() {
-  document.getElementById("overlay").style.display = "block";
+// OVAERLAY START 
+function on(){
+  var one = document.getElementById("overlay").style.display = "block";
 }
-
 function off() {
   document.getElementById("overlay").style.display = "none";
 }
+
+function onUI(){
+  var one = document.getElementById("overlayUI").style.display = "block";
+}
+function offUI() {
+  document.getElementById("overlayUI").style.display = "none";
+}
+
+
+function onSEO(){
+  var one = document.getElementById("overlaySEO").style.display = "block";
+}
+function offSEO() {
+  document.getElementById("overlaySEO").style.display = "none";
+}
 // OVRLAY END
-/****** END *****/
+
+
+
 
 

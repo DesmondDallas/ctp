@@ -15,14 +15,8 @@
         <title>Code To Program></title>
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
         <link rel="stylesheet" type="text/css" href="styles/grid.css">
-        <link rel="stylesheet" type="text/css" href="styles/nav.css">
         <link rel="stylesheet" type="text/css" href="styles/image.css">
-        <link rel="stylesheet" type="text/css" href="styles/contact-form.css">
-        <link rel="stylesheet" type="text/css" href="styles/cards.css">
         <link rel="stylesheet" type="text/css" href="styles/media.css">
-        <link rel="stylesheet" type="text/css" href="styles/review.css">
-        <link rel="stylesheet" type="text/css" href="styles/gallery.css">
-        <link rel="stylesheet" type="text/css" href="styles/footer.css">
 
         <script src="https://kit.fontawesome.com/668c048241.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
@@ -45,7 +39,7 @@
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-        </header><!-- header end -->
+        </header><!-- header end --></div>
     
         
         <!-- header-container start -->
@@ -56,18 +50,16 @@
                 <a href='https://www.freecodecamp.org/'></a>
                 <button class="header-btn">Call 01689 XXX XXX</button>
                 <p style="font-size: 1.2rem">London's Leading Digital Agency</p>
-                <div class="footer-col social container">
+                <div class="social">
                     <ul>
                         <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px"></li>
-                        <li><li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+                        <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px"></li>
                     </ul>
                 </div>
             </div>
         </div><!-- header container end -->
 
         
-
-
         <!-- intro start -->
         <div class="container intro">
             <p class="intro-header"><span style="color:#a2a461">Developing</span> Web and Mobile Applications</p>
@@ -88,8 +80,7 @@
         <div class="card-content">
             <div class="card">
                 <img src="img/business-camera-communication-436784.jpg">
-                <h1 class="material-icons">Web Design</h1>
-                <h2>Design and Develop</h2>
+                <h2>Web Design</h2>
                 <p>Optamising your website. Ranking you high on 
                     major search engines.</p>
                 <a class="card-btn" href="#">More info</a>
@@ -97,8 +88,7 @@
         
             <div class="card">
                 <img src="img/business-camera-communication-436784.jpg">
-                <h1 class="material-icons">SEO</h1>
-                <h2>Website Ranking</h2>
+                <h2>SEO</h2>
                 <p>Optamising your website. Ranking you high on 
                     major search engines.</p>
                 <a class="card-btn" href="#">More info</a>
@@ -106,7 +96,6 @@
                     
             <div class="card">
                 <img src="img/business-camera-communication-436784.jpg">
-                <h1 class="material-icons">Tutorials</h1>
                 <h2>Learn To Code</h2>
                 <p>Optamising your website. Ranking you high on 
                     major search engines.</p>
@@ -115,7 +104,6 @@
 
             <div class="card hidden-card">
                 <img src="img/business-camera-communication-436784.jpg">
-                <h1 class="material-icons">All Prices</h1>
                 <h2>Pricing</h2>
                 <p>Optamising your website. Ranking you high on 
                     major search engines.</p>
@@ -130,102 +118,92 @@
             <p style="font-size: 23px; text-align: center">MORE ABOUT US</p>
             <i class="fas fa-chevron-down" style="margin-top: 0px"></i>
         </div>
-        <!-- more about us arr0w end -->
+        <!-- more about us arrow end -->
+
+
 
 
         <!-- ABOUT US START -->
         <div class="about-us-container">
-            <div class="about-why-use-us about-inner">
-                <h3 style="color: #a2a461; font-size: 1.5rem">WEB DESIGN</h3>
+            <div class="about-web about-inner">
+                <h3>WEB DESIGN</h3>
                 <p>consectetur adipisicing elit. Ipsam modi amet error iste consequuntur est magnam pariatur
                 aperiam illo, delectus nostrum aut qui ducimus culpa expedita reiciendis vero praesentium
                 alias!Voluptate alias quasi ratione, perferendis esse atque aliquid sunt ipsam quidem
                 nesciunt exercitationem ea autem odio molestias, animi minus nam ipsum dolor sit amet 
                 consectetur adipisicing elit esse atque aliquid sunt ipsam quidem
                 nesciunt exercitationem ea autem odio molestias.
-                <span>
-                    <button onclick="on()" style="margin-left:20px">Read More</button>
-                </span>
-                </p>
+                <span><button id="btn-about" onclick="on()">Read More</button></span></p>
               
-                <!-- OVERLAY START -->
-                <div id="overlay" onclick="off()">
-                    <div id="text">
-                        <h2>WEB DESIGN</h2>
-                        consectetur adipisicing elit. Ipsam modi amet error iste consequuntur est magnam pariatur
-                        aperiam illo, delectus nostrum aut qui ducimus culpa expedita reiciendis vero praesentium
-                        alias!Voluptate alias quasi ratione, perferendis esse atque aliquid sunt ipsam quidem
-                        nesciunt exercitationem ea autem odio molestias, animi minus nam ipsum dolor sit amet 
-                        consectetur adipisicing elit esse atque aliquid sunt ipsam quidem
-                        nesciunt exercitationem ea autem odio molestias.
-                    </div>
+            <!-- OVERLAY -->
+            <div id="overlay" onclick="off()">
+                <div id="text">
+                    <h2>WEB DESIGN</h2>
+                    consectetur adipisicing elit. Ipsam modi amet error iste consequuntur est magnam pariatur
+                    aperiam illo, delectus nostrum aut qui ducimus culpa expedita reiciendis vero praesentium
+                    alias!Voluptate alias quasi ratione, perferendis esse atque aliquid sunt ipsam quidem
+                    nesciunt exercitationem ea autem odio molestias, animi minus nam ipsum dolor sit amet 
+                    consectetur adipisicing elit esse atque aliquid sunt ipsam quidem
+                    nesciunt exercitationem ea autem odio molestias.
                 </div>
-                <!-- OVERLAY END -->
-                </div>
-                <div class="why-use-us about-inner">
-                    <img src="img/business-camera-communication-436784.jpg" style="width: 100%">
-                </div>
+            </div>
+            </div>
+            <div class="web-image about-inner">
+                <img src="img/business-camera-communication-436784.jpg">
+            </div>
 
 
-
-            <div class="ui-design about-inner">
-                <img src="img/business-camera-communication-436784.jpg" style="width: 100%">
+            <div class="ui-image about-inner">
+                <img src="img/business-camera-communication-436784.jpg">
             </div>
             <div class="about-ui about-inner">
-                <h3 style="color: #a2a461; font-size: 1.5rem">UI DESIGN</h3>
+                <h3>UI DESIGN</h3>
                 <p>consectetur adipisicing elit. Ipsam modi amet error iste consequuntur est magnam pariatur
                 aperiam illo, delectus nostrum aut qui ducimus culpa expedita reiciendis vero praesentium
                 alias!Voluptate alias quasi ratione, perferendis esse atque aliquid sunt ipsam quidem
                 nesciunt exercitationem ea autem odio molestias, animi minus nam ipsum dolor sit amet 
                 consectetur adipisicing elit esse atque aliquid sunt ipsam quidem
                 nesciunt exercitationem ea autem odio molestias.
-                <span>
-                    <button onclick="on()" style="margin-left:20px">Read More</button>
-                </span>
-                </p>
+                <span><button id="btn-about" onclick="onUI()">Read More</button></span></p>
                   
-                <!-- OVERLAY START -->
-                <div id="overlayone" onclick="off()">
-                    <div id="text">
-                        <h2>UI DESIGN</h2>
-                        consectetur adipisicing elit. Ipsam modi amet error iste consequuntur est magnam pariatur
-                        aperiam illo, delectus nostrum aut qui ducimus culpa expedita reiciendis vero praesentium
-                        alias!Voluptate alias quasi ratione, perferendis esse atque aliquid sunt ipsam quidem
-                        nesciunt exercitationem ea autem odio molestias, animi minus nam ipsum dolor sit amet 
-                        consectetur adipisicing elit esse atque aliquid sunt ipsam quidem
-                        nesciunt exercitationem ea autem odio molestias.
-                    </div>
+            <div id="overlayUI" onclick="offUI()">
+                <div id="text">
+                    <h2>UI DESIGN</h2>
+                    consectetur adipisicing elit. Ipsam modi amet error iste consequuntur est magnam pariatur
+                    aperiam illo, delectus nostrum aut qui ducimus culpa expedita reiciendis vero praesentium
+                    alias!Voluptate alias quasi ratione, perferendis esse atque aliquid sunt ipsam quidem
+                    nesciunt exercitationem ea autem odio molestias, animi minus nam ipsum dolor sit amet 
+                    consectetur adipisicing elit esse atque aliquid sunt ipsam quidem
+                    nesciunt exercitationem ea autem odio molestias.
                 </div>
             </div>
+        </div>
 
 
-            <div class="seo about-inner">
-                <h3 style="color: #a2a461; font-size: 1.5rem">SEO</h3>
+            <div class="about-seo about-inner">
+                <h3>SEO</h3>
                 <p>consectetur adipisicing elit. Ipsam modi amet error iste consequuntur est magnam pariatur
                 aperiam illo, delectus nostrum aut qui ducimus culpa expedita reiciendis vero praesentium
                 alias!Voluptate alias quasi ratione, perferendis esse atque aliquid sunt ipsam quidem
                 nesciunt exercitationem ea autem odio molestias, animi minus nam ipsum dolor sit amet 
                 consectetur adipisicing elit esse atque aliquid sunt ipsam quidem
                 nesciunt exercitationem ea autem odio molestias.
-                <span>
-                    <button onclick="on()" style="margin-left:20px">Read More</button>
-                </span>
-                </p>
+                <span><button id="btn-about" onclick="onSEO()">Read More</button></span></p>
 
-                <div id="overlayone" onclick="off()">
-                    <div id="text">
-                        <h2>UI DESIGN</h2>
-                        consectetur adipisicing elit. Ipsam modi amet error iste consequuntur est magnam pariatur
-                        aperiam illo, delectus nostrum aut qui ducimus culpa expedita reiciendis vero praesentium
-                        alias!Voluptate alias quasi ratione, perferendis esse atque aliquid sunt ipsam quidem
-                        nesciunt exercitationem ea autem odio molestias, animi minus nam ipsum dolor sit amet 
-                        consectetur adipisicing elit esse atque aliquid sunt ipsam quidem
-                        nesciunt exercitationem ea autem odio molestias.
-                    </div>
+            <div id="overlaySEO" onclick="offSEO()">
+                <div id="text">
+                    <h2>SEO</h2>
+                    consectetur adipisicing elit. Ipsam modi amet error iste consequuntur est magnam pariatur
+                    aperiam illo, delectus nostrum aut qui ducimus culpa expedita reiciendis vero praesentium
+                    alias!Voluptate alias quasi ratione, perferendis esse atque aliquid sunt ipsam quidem
+                    nesciunt exercitationem ea autem odio molestias, animi minus nam ipsum dolor sit amet 
+                    consectetur adipisicing elit esse atque aliquid sunt ipsam quidem
+                    nesciunt exercitationem ea autem odio molestias.
                 </div>
             </div>
-            <div class="about-seo about-inner">
-                <img src="img/business-camera-communication-436784.jpg" style="width: 100%">
+            </div>
+            <div class="seo-image about-inner">
+                <img src="img/business-camera-communication-436784.jpg">
             </div>
         </div>
         </div>
@@ -234,23 +212,22 @@
 
 
 
-
-
-
-
-        <!-- contact us start -->
+        
+        <!-- CONTACT US START -->
         <div class="contact-us" style="margin-bottom: 100px; 
         padding-top: 100px; padding-bottom: 100px">
             <p style="font-size: 2.5rem">Have A Project In Mind?</p>
             <p>Contact us today to share your ideas</p>
             <button>Call 07363 6363737</button>
         </div>
-        <!-- contact us end -->
+        <!-- CONTACT US END -->
+
+
+
 
         
-        <!-- reviews with stars-->
-        <div class="container" style="margin-top: 100px; margin-bottom: 100px; width: 83%; 
-        padding: 25px">
+        <!-- review with stars-->
+        <div class="container">
             <span class="heading">Customer reviews</span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -259,24 +236,24 @@
             <span class="fa fa-star"></span>
             <p>4.1 average based on 254 reviews.</p>
             <hr style="border:3px solid #f1f1f1">
-
-            <button onclick="move()">Click Me</button>
+            
             <div class="row">
                 <div class="side">
                     <div>5 star</div>
                 </div>
-                
                 <div class="middle">
                     <div class="bar-container">
                     <div class="bar-5"></div>
                     </div>
                 </div>
+
                 <div class="side right">
                     <div>150</div>
                 </div>
                 <div class="side">
                     <div>4 star</div>
                 </div>
+
                 <div class="middle">
                     <div class="bar-container">
                     <div class="bar-4"></div>
@@ -285,6 +262,7 @@
                 <div class="side right">
                     <div>63</div>
                 </div>
+
                 <div class="side">
                     <div>3 star</div>
                 </div>
@@ -293,12 +271,14 @@
                     <div class="bar-3"></div>
                     </div>
                 </div>
+
                 <div class="side right">
                     <div>15</div>
                 </div>
                 <div class="side">
                     <div>2 star</div>
                 </div>
+
                 <div class="middle">
                     <div class="bar-container">
                     <div class="bar-2"></div>
@@ -307,6 +287,7 @@
                 <div class="side right">
                     <div>6</div>
                 </div>
+                
                 <div class="side">
                     <div>1 star</div>
                 </div>
@@ -326,7 +307,7 @@
         <!-- gallery start -->
         <div class="unit">
             <div class="main container"><!-- MAIN (Center website) -->
-                <h1>Gallery</h1>
+                <h2 style="font-size: 50px; word-break: break-all">Gallery</h2>
                 <hr>
                 
                 <h2>PORTFOLIO</h2>
@@ -390,6 +371,7 @@
         <div id="myModal" class="modal">
             <span class="close">&times;</span>
             <img class="modal-content" id="img01">
+            <img class="modal-content" id="img02">
             <div id="caption"></div>
         </div>
         <!-- unit end -->
