@@ -1,0 +1,30 @@
+/*** CONTACT US START ***/
+.contact-us > p {
+    margin-top: 0px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+  }
+  
+  .contact-us > button {
+    display: flex; 
+    justify-content: center; 
+    background-color: #a2a461;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 40px;
+    padding: 25px;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    font-size: 20px; 
+    color: white;
+  }
+  
+  .contact-us {
+    background-color: rgb(191, 199, 183);
+    padding: 17px;
+  }
+  /*** CONTACT US END ***/

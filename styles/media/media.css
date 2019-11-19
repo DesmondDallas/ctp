@@ -21,7 +21,7 @@
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 769px) {
   .header {
   flex-direction: row; /* places nav and logo on same line */
   }
@@ -38,7 +38,6 @@
   margin-right: .65em; /* spacing between nav items */
 }
 }
-
 
 ul, li {
 	margin: 0;

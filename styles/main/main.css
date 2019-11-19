@@ -1,0 +1,30 @@
+body { 
+    margin: 0;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: inherit;
+  }
+  
+  
+  /*keeps left & right margin when responsive*/
+  .container {
+      width: 90%;
+      margin: auto;
+  } 
+  
+  .container-title {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .btn {
+    color: white;
+  }
+  
+  img {
+    width: 100%;
+    }
+  
+  h3 { 
+    font-size: 1.5rem
+  }

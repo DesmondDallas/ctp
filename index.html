@@ -1,7 +1,7 @@
 <!-- run local host
   1) cd and drag drop file
   2) type: python -m SimpleHTTPServer 8080
-  3) browser type: http://localhost8080
+  3) browser type: http://localhost:8080
 -->
 
 <!-- to make a comment: cmd and / -->
@@ -13,10 +13,22 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Code To Program></title>
-        <link rel="stylesheet" type="text/css" href="styles/styles.css">
-        <link rel="stylesheet" type="text/css" href="styles/grid.css">
-        <link rel="stylesheet" type="text/css" href="styles/image.css">
-        <link rel="stylesheet" type="text/css" href="styles/media.css">
+
+        <link rel="stylesheet" type="text/css" href="styles/navbar/navbar.css">
+        <link rel="stylesheet" type="text/css" href="styles/header/header.css">
+        <link rel="stylesheet" type="text/css" href="styles/intro/intro.css">
+        <link rel="stylesheet" type="text/css" href="styles/card/card.css">
+        <link rel="stylesheet" type="text/css" href="styles/more_about_us/more_about_us.css">
+        <link rel="stylesheet" type="text/css" href="styles/about_us/about_us.css">
+        <link rel="stylesheet" type="text/css" href="styles/contact_us/contact_us.css">
+        <link rel="stylesheet" type="text/css" href="styles/review_us/review_us.css">
+        <link rel="stylesheet" type="text/css" href="styles/gallery/gallery.css">
+        <link rel="stylesheet" type="text/css" href="styles/footer/footer.css">
+        <link rel="stylesheet" type="text/css" href="styles/main/main.css">
+        
+        <link rel="stylesheet" type="text/css" href="styles/grid/about_us.css">
+        <link rel="stylesheet" type="text/css" href="styles/grid/grid_main.css">
+        <link rel="stylesheet" type="text/css" href="styles/media/media.css">
 
         <script src="https://kit.fontawesome.com/668c048241.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
@@ -39,12 +51,13 @@
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-        </header><!-- header end --></div>
+        </header>
+        <!-- header end --></div>
     
         
         <!-- header-container start -->
         <div class="header-container" style="position: relative">
-            <img class="header-image" src="img/business-camera-communication-436784.jpg" style="position: relative">
+            <img class="header-image" src="images/business-camera-communication-436784.jpg" style="position: relative">
             <div class="header-text-block">
                 <h1>C T P</h1>
                 <a href='https://www.freecodecamp.org/'></a>
@@ -52,8 +65,8 @@
                 <p style="font-size: 1.2rem">London's Leading Digital Agency</p>
                 <div class="social">
                     <ul>
-                        <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px"></li>
-                        <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px"></li>
+                        <li><images src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px"></li>
+                        <li><images src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px"></li>
                     </ul>
                 </div>
             </div>
@@ -79,7 +92,7 @@
         <!-- cards Start-->
         <div class="card-content">
             <div class="card">
-                <img src="img/business-camera-communication-436784.jpg">
+                <img src="images/business-camera-communication-436784.jpg">
                 <h2>Web Design</h2>
                 <p>Optamising your website. Ranking you high on 
                     major search engines.</p>
@@ -87,7 +100,7 @@
             </div>
         
             <div class="card">
-                <img src="img/business-camera-communication-436784.jpg">
+                <img src="images/business-camera-communication-436784.jpg">
                 <h2>SEO</h2>
                 <p>Optamising your website. Ranking you high on 
                     major search engines.</p>
@@ -95,7 +108,7 @@
             </div>
                     
             <div class="card">
-                <img src="img/business-camera-communication-436784.jpg">
+                <img src="images/business-camera-communication-436784.jpg">
                 <h2>Learn To Code</h2>
                 <p>Optamising your website. Ranking you high on 
                     major search engines.</p>
@@ -103,7 +116,7 @@
             </div>
 
             <div class="card hidden-card">
-                <img src="img/business-camera-communication-436784.jpg">
+                <img src="images/business-camera-communication-436784.jpg">
                 <h2>Pricing</h2>
                 <p>Optamising your website. Ranking you high on 
                     major search engines.</p>
@@ -149,12 +162,12 @@
             </div>
             </div>
             <div class="web-image about-inner">
-                <img src="img/business-camera-communication-436784.jpg">
+                <img src="images/business-camera-communication-436784.jpg">
             </div>
 
 
             <div class="ui-image about-inner">
-                <img src="img/business-camera-communication-436784.jpg">
+                <img src="images/business-camera-communication-436784.jpg">
             </div>
             <div class="about-ui about-inner">
                 <h3>UI DESIGN</h3>
@@ -203,7 +216,7 @@
             </div>
             </div>
             <div class="seo-image about-inner">
-                <img src="img/business-camera-communication-436784.jpg">
+                <img src="images/business-camera-communication-436784.jpg">
             </div>
         </div>
         </div>
@@ -321,21 +334,21 @@
                 <div class="row"><!-- PORTFOLIO GALLERY GRID START -->
                     <div class="column webDesign">
                         <div class="content">
-                            <img src="img/business-camera-communication-436784.jpg" id="myImg" alt="Lights" style="width:100%">
+                            <img src="images/business-camera-communication-436784.jpg" id="myImg" alt="Lights" style="width:100%">
                             <h4>Web Design</h4>
                             <p>Lorem ipsum dolor..</p>
                         </div>
                     </div>
                     <div class="column webDesign">
                         <div class="content">
-                            <img src="img/business-camera-communication-436784.jpg" id="myImg" alt="Lights" style="width:100%">
+                            <img src="images/business-camera-communication-436784.jpg" id="myImg" alt="Lights" style="width:100%">
                             <h4>Web Design</h4>
                             <p>Lorem ipsum dolor..</p>
                         </div>
                     </div>
                     <div class="column webDesign">
                         <div class="content">
-                            <img src="img/business-camera-communication-436784.jpg" id="myImg" alt="Nature" style="width:100%">
+                            <img src="images/business-camera-communication-436784.jpg" id="myImg" alt="Nature" style="width:100%">
                             <h4>Web Design</h4>
                             <p>Lorem ipsum dolor..</p>
                         </div>
@@ -343,21 +356,21 @@
                     
                     <div class="column uiDesign">
                         <div class="content">
-                            <img src="img/business-camera-communication-436784.jpg" id="myImg" alt="Car" style="width:100%">
+                            <img src="images/business-camera-communication-436784.jpg" id="myImg" alt="Car" style="width:100%">
                             <h4>UI Design</h4>
                             <p>Lorem ipsum dolor..</p>
                         </div>
                     </div>
                     <div class="column uiDesign">
                         <div class="content">
-                            <img src="img/business-camera-communication-436784.jpg" id="myImg" alt="Car" style="width:100%">
+                            <img src="images/business-camera-communication-436784.jpg" id="myImg" alt="Car" style="width:100%">
                             <h4>UI Design</h4>
                             <p>Lorem ipsum dolor..</p>
                         </div>
                     </div>
                     <div class="column uiDesign">
                         <div class="content">
-                            <img src="img/business-camera-communication-436784.jpg" id="myImg" alt="Car" style="width:100%">
+                            <img src="images/business-camera-communication-436784.jpg" id="myImg" alt="Car" style="width:100%">
                             <h4>UI Design</h4>
                             <p>Lorem ipsum dolor..</p>
                         </div>
