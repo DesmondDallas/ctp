@@ -1,11 +1,10 @@
 /********* intro start *******/
-.intro {
-    margin-top: 150px;
-    margin-bottom: 150px;
+.intro-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   
-  .intro-header {
-    line-height:1.1; 
+  .intro-hd {
     font-size: 3.5rem; 
     text-align: center;
   }
@@ -21,6 +20,7 @@
   
   .intro-p2 {
     margin-bottom: 100px;
+    width: 83%;
     font-size: 1.5rem;
     letter-spacing: .02em;
     color: #525252;

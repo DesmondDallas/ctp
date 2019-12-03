@@ -1,6 +1,6 @@
 /*** Cards Start **/
-.card-content {
-    width: 95%;
+.card-container {
+    width: 95%;/* makes responsive */
     max-width: 1000px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -12,12 +12,11 @@
     margin-bottom: 1.25em;
   }
   
-  
   .card {
     padding: 10px;
     border: 1px solid #e1e1e1;
     /*border-radius: 0.25em;*/
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
   
   .card h1 {
@@ -28,10 +27,6 @@
   
   .card p {
     color: #797e83;
-  }
-  
-  h2 {
-    margin-top: 0px
   }
     
   .card, img > h2 {

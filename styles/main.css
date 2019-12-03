@@ -5,25 +5,22 @@ body {
     font-size: inherit;
   }
   
-  
   /*keeps left & right margin when responsive*/
   .container {
-      width: 90%;
+    /*  width: 90%; */
       margin: auto;
   } 
   
+  /* Delete no css for this */
   .container-title {
     margin-left: 50px;
     margin-right: 50px;
   }
-  
-  .btn {
-    color: white;
-  }
+  /* Delete no css for this */
   
   img {
     width: 100%;
-    }
+  }
   
   h3 { 
     font-size: 1.5rem

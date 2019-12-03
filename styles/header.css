@@ -1,16 +1,17 @@
-/*** header-container start ***/
-.header-container {
+/*** hd-container start ***/
+.hd-container {
     position: relative;
+    margin-bottom: 80px
   }
   
-  .header-image {
+  .hd-img {
     height: 616px;
     width: 100%;
     background-size: cover;
     position: relative;
     }
     
-  .header-text-block {
+  .hd-text-block {
     position: absolute;
     bottom: -60px;
     right: 130px;
@@ -23,20 +24,25 @@
     height: 520px
   }
   
-  .header-text-block > h1 {
+  .hd-text-block > h1 {
     font-size: 6.7rem;
   }
+
+  .hd-text-block > p {
+    font-size: 1.2rem;
+  }
   
-  
-  .header-btn { 
+  .hd-btn { 
     font-size: 1.2rem; 
     padding: 13px;
     background-color: rgb(148, 237, 182);
     border: 1px solid rgb(148, 237, 182);
   }
-  /*** header-container end***/
+  /*** hd-container end***/
   
-
+.intro {
+  margin-bottom: 80px
+}
 
 
 
