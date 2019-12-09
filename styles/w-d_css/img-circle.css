@@ -9,6 +9,12 @@
     margin-right: auto;
 }
 
+.btn-content {
+   text-align: center; 
+   border: 1px solid #e1e1e1; 
+   padding: 30px;
+}
+
 .img-content {
     width: 95%;
     max-width: 1000px;
@@ -17,10 +23,6 @@
     grid-gap: 20px;
     margin: 2em auto; /* (with auto) left and right margin wil set itself equally */
     }
-
-.btn-content > p {
-    text-align: center;
-}
 
 .txt {
     color: #999999;
@@ -32,6 +34,44 @@
     line-height: 40px;
     opacity: 1;
 }
+
+.img-content h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    -webkit-font-smoothing: antialiased;
+    color: #525252;
+}
+
+.btn-content:hover h2, .btn-content:hover  {
+    background-color: rgb(191, 199, 183);
+    transform: scale(1.1);
+    color: white;
+  }
+
+.btn-content:hover {
+    border: 4px solid #e1e1e1;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

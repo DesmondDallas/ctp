@@ -1,0 +1,62 @@
+
+
+.main-container {
+    padding: 0px 30px 100px 30px;
+  }
+  
+  .main-container p {
+    color: #797e83;
+  }
+  
+  .main-container h2 {
+    -webkit-font-smoothing: antialiased;
+      color: #525252;
+  }
+  
+  .section-container, .second-section-container {
+    width: 100%;/* makes responsive */
+    /*max-width: 1500px;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /*margin: 2em auto;*/ /* (with auto) left and right margin wil set itself equally */
+  }
+  
+  hr {
+    width: 60%; 
+    opacity: 0.3
+  }
+  
+  .box-inner-1, .box-inner-2 {
+    padding: 80px 50px 80px 50px;
+    margin: 0px 0px 0px 0px;
+    text-align: center
+  }
+  
+  .box-inner-2 {
+    border: 1px solid rgb(245, 245, 245);
+  }
+
+  .box-inner-1 {
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .box-inner-2:hover, .box-inner-1:hover {
+    background-color: rgb(191, 199, 183); 
+  }
+
+  .box-zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 *//* Check if this is need */
+    -webkit-transform: scale(1.1); /* Safari 3-8 *//* Check if this is need */
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: 0.8s; 
+  }
+  
+  .box-inner-1:hover h2, .box-inner-1:hover p, 
+  .box-inner-2:hover h2, .box-inner-2:hover p {
+    color: white;
+  }
+  
+  .box-inner-1 p, .box-inner-2 p {
+    letter-spacing: 1px;
+  }
+  
